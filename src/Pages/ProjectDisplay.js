@@ -10,13 +10,15 @@ function ProjectDisplay() {
     return (
         <div className='project'>
             <div className='project-content'>
+            <a href={project?.link} target="_blank" rel='noreferrer'>
             <h1>{project.name}</h1>
-            <img src={project.image} />
+            </a>
+            <img src={project.image} alt={project.name} />
             <p>
                 <b>Skills :</b>
                 {project.skills}
             </p>
-            <a href={project.githubLink} target="_blank"><GitHubIcon /></a>
+            <a href={project.githubLink} target="_blank" rel='noreferrer'><GitHubIcon /></a>
 
             </div>
         </div>

@@ -10,9 +10,9 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-           <a href={SocialMediaLinks.Instagram} target="_blank" ><InstagramIcon /></a>
-           <a href={SocialMediaLinks.LinkedIn} target="_blank" ><LinkedInIcon /></a>
-           <a href={SocialMediaLinks.Github} target="_blank" ><GitHubIcon /></a>
+           <a href={SocialMediaLinks.Instagram} target="_blank" rel='noreferrer' ><InstagramIcon /></a>
+           <a href={SocialMediaLinks.LinkedIn} target="_blank" rel='noreferrer' ><LinkedInIcon /></a>
+           <a href={SocialMediaLinks.Github} target="_blank" rel='noreferrer' ><GitHubIcon /></a>
         </div>
         <p>&copy; 2022 Mohd Abdullah</p>
     </div>

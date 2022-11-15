@@ -32,3 +32,12 @@
   .project-content {
     text-align: center;
   }
+
+
+  p.live {
+    right: 580px;
+    position: absolute;
+    font-size: 10px;
+    top: 153px;
+    color: red;
+  }
